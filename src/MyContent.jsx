@@ -14,7 +14,9 @@ function MyContent() {
                     זוכרת כמה חלומות רקמת על האימהות שלך?
                     <br />
                     זוכרת את האכזבה הזאת כשכל החלומות התנגשו עם הדבר הגדול הזה שנקרא -
-                    חיים? אבל בסוף זה אפשרי!
+                    חיים?
+                    <br />
+                     אבל בסוף זה אפשרי!
                     <br />
                     אפשר לחיות את החיים לצד כל משאלות הלב שלך לגבי האמא שאת רוצה להיות.
                     ובדיוק בשביל זה אני כאן,
@@ -46,16 +48,17 @@ function MyContent() {
             </div>
             <div className="workshop-content">
             <div style={{ backgroundColor: '#e6f0ff', padding: '20px 20px', borderRadius: '20px' }}>
-                <h2>אז מה בתכנית?</h2>
-                <p>סדנה בת 4 מפגשים:</p>
+                <h2 style={{fontSize: '27px'}}>אז מה בתכנית?</h2>
+                <p   style={{fontSize: '20px'}}>סדנה בת 4 מפגשים:</p>
               </div>
-              <div style={{backgroundColor: '#fff', padding: '40px 20px'}}>
+              <div style={{backgroundColor: '#fff', paddingTop: '40px', paddingLeft: '15px', paddingRight: '15px',
+               paddingBottom: '10px'}}>
                 <div style={{maxWidth: '1200px', margin: '0 auto'}}>
                   <div className="grid-layout">
                     <div className="content-wrapper">
                       <div className="content-number">1</div>
                       <div className="content-text">
-                        <div className="content-title">
+                        <div style={{fontSize: '20px'}} className="content-title">
                           "כל דבר אני צריכה לבקש ממנו מיליון פעמים"
                         </div>
                         <div className="content-description">
@@ -66,7 +69,7 @@ function MyContent() {
                     <div className="content-wrapper">
                       <div className="content-number">2</div>
                       <div className="content-text">
-                        <div className="content-title">"מתי אלמד לבחור נכון"</div>
+                        <div style={{fontSize: '20px'}} className="content-title">"מתי אלמד לבחור נכון"</div>
                         <div className="content-description">
                           על הבחירות שלנו ועל התפקיד שלנו כהורים.
                         </div>
@@ -75,7 +78,7 @@ function MyContent() {
                     <div className="content-wrapper">
                       <div className="content-number">3</div>
                       <div className="content-text">
-                        <div className="content-title">
+                        <div style={{fontSize: '20px'}} className="content-title">
                           "אני לא מבינה למה הוא מתנהג ככה!"
                         </div>
                         <div className="content-description">
@@ -86,7 +89,7 @@ function MyContent() {
                     <div className="content-wrapper">
                       <div className="content-number">4</div>
                       <div className="content-text">
-                        <div className="content-title">
+                        <div style={{fontSize: '20px'}} className="content-title">
                           "אין לילד הזה גבולות, הוא פשוט עושה לי דווקא"
                         </div>
                         <div className="content-description">
@@ -98,7 +101,7 @@ function MyContent() {
                 </div>
               </div>
               <div
-style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
+style={{ backgroundColor: 'white', textAlign: 'center' }}
 >
                 <h2
         className="selling-header"
@@ -142,7 +145,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
                     width="20%"
                   />
 <p style={{ margin: '0', fontSize: '16px' }}>
-  פרקטיקה יישומית לבית האישי
+  פרקטיקה יישומית לבית האישי.
 </p>
                 </div>
                 <div
@@ -162,7 +165,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
                     width="20%"
                   />
 <p style={{ margin: '0', fontSize: '16px' }}>
-  שיתוף וכח של קבוצה
+  שיתוף וכח של קבוצה.
 </p>
                 </div>
                 <div
@@ -182,7 +185,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
                     width="20%"
                   />
 <p style={{ margin: '0', fontSize: '16px' }}>
-                    קבוצת וואטסאפ ומענה לשאלות בין המפגשים
+                    קבוצת וואטסאפ ומענה לשאלות בין המפגשים.
                   </p>
                 </div>
               </div>
@@ -235,7 +238,7 @@ style={{
   fontWeight: 'bold',
   color: '#333'
 }}>
-                     <span style={{ fontSize: '40px' }}>450</span>
+                     <span style={{ fontSize: '40px' }}> 450 </span>
 <span style={{ fontSize: '24px' }}>ש"ח</span>
 
                     </div>
@@ -244,10 +247,13 @@ style={{
               </div>
               <div className="footer">
                 <div className="footer-cta">
-                  בואי לעשות את הצעד הראשון להזכיר לעצמך את המהות רגע לפני החופש הגדול,
+                  בואי לעשות את הצעד הראשון להחזיר לעצמך את המהות רגע לפני החופש הגדול,
                   מחכה לך!
                 </div>
-                <a href="d" lass="btn btn-primary">כן, אני רוצה להירשם!</a>
+                <div>
+                <a style={{ fontSize: '35px', fontWeight: 'bold' }} href="https://pay.sumit.co.il/74becf/enbart/enbaru/payment/" 
+                lass="btn btn-primary">אני רוצה להירשם!</a>
+                </div>
               </div>
             </div>
         </div>
