@@ -36,7 +36,7 @@ function MyContent() {
                   בגישת ״אמא מאמנת״ ואשת חינוך.
                 </p>
                 <img
-                  src="WhatsApp Image 2025-05-13 at 12.37.41.jpeg"
+                  src="/WhatsApp Image 2025-05-13 at 12.37.41.jpeg"
                   alt="מטרה"
                   className="self-intro-img"
                 />
@@ -117,7 +117,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
                   
                 >
                   <img
-                    src="WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
+                    src="/WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
                     alt="מטרה"
                     style={{marginLeft: '15px'}}
                     width="20%"
@@ -136,7 +136,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
   }}
                 >
                   <img
-                    src="WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
+                    src="/WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
                     alt="מטרה"
                     style={{ marginLeft: '15px' }}
                     width="20%"
@@ -156,7 +156,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
                   }}
                 >
                   <img
-                  src="WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
+                  src="/WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
                     alt="מטרה"
                     style={{ marginLeft: '15px' }}
                     width="20%"
@@ -176,7 +176,7 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
                   }}
                 >
                   <img
-                    src="WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
+                    src="/WhatsApp Image 2025-05-13 at 12.3334.23.jpeg"
                     alt="מטרה"
                     style={{ marginLeft: '15px' }}
                     width="20%"
@@ -191,22 +191,22 @@ style={{ backgroundColor: 'white', padding: '40px 20px', textAlign: 'center' }}
 style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}
 >
 <div style={{ textAlign: 'center', margin: '20px', width: '150px' }}>
-                    <img src="WhatsApp Image 2025-05-13 at 12.34.23.jpeg" alt="איקון"
+                    <img src="/WhatsApp Image 2025-05-13 at 12.34.23.jpeg" alt="איקון"
                     width="20%" />
                     <p>במקום מפנק במרכז הצעירים ביבנה בכתובת: רחוב עולש 2</p>
                   </div>
                   <div style={{ textAlign: 'center', margin: '20px', width: '150px' }}>
-                    <img src="WhatsApp Image 2025-05-13 at 18.49.23 (1).jpeg" alt="איקון" 
+                    <img src="/WhatsApp Image 2025-05-13 at 18.49.23 (1).jpeg" alt="איקון" 
                      width="20%"/>
                     <p>תאריכים: 8/6, 15/6, 22/6, 29/6</p>
                   </div>
                   <div style={{ textAlign: 'center', margin: '20px', width: '150px' }}>
-                    <img src="WhatsApp Image 2025-05-13 at 12.34.23 (1).jpeg" alt="איקון"
+                    <img src="/WhatsApp Image 2025-05-13 at 12.34.23 (1).jpeg" alt="איקון"
                     width="20%" />
                     <p>20:00-21:30</p>
                   </div>
                   <div style={{ textAlign: 'center', margin: '20px', width: '150px' }}>
-                    <img src="WhatsApp Image 2025-05-13 at 12.34.22.jpeg" 
+                    <img src="/WhatsApp Image 2025-05-13 at 12.34.22.jpeg" 
                     alt="איקון" 
                     width="20%"
                     style={{ backgroundColor: '#f8d7da' }}
