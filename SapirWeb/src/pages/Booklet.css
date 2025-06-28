@@ -32,6 +32,11 @@
     font-size: 20px;
     font-weight: bold;
   }
+
+  input::placeholder {
+    color: black;
+    opacity: 1; /* Optional: makes it fully opaque */
+  }
   
   .form-subtitle {
     margin-top: 8px;
