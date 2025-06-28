@@ -1,0 +1,290 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    color: #333;
+    background-color: white;
+   
+    max-width: 1200px;
+    margin: auto;
+  }
+  .hero {
+    background-image: url("/api/placeholder/1200/400");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #0a3f67;
+  }
+  .hero-content {
+    max-width: 1200px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .guide-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    position: relative;
+    color: #333;
+  }
+  .guide-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .guide-arrow {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: -30px;
+    right: -30px;
+  }
+  .cta-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .cta-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d3748;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background-color: #e83e8c;
+    color: white;
+  }
+  .btn-outline {
+    background-color: white;
+    color: #2d3748;
+    border: 1px solid #ddd;
+  }
+  .header {
+    background-color: #f8d7da;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px auto;
+    color: #0a3f67;
+  }
+  .header h1 {
+    margin: 0;
+    color: #2d3748;
+    font-size: 80px;
+  }
+
+  .self-intro-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: auto;
+  }
+
+  .self-intro-img {
+    width: 30%;
+  }
+
+  .features {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .workshop-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .details-column {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+  }
+  .details-title {
+    color: #2d3748;
+    border-bottom: 2px solid #e83e8c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .details-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .details-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .details-list li:before {
+    content: "•";
+    color: #e83e8c;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .workshop-content {
+    color: #0a3f67;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .content-item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .content-number {
+    width: 60px;
+    height: 60px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+  }
+  .content-text {
+    flex: 1;
+  }
+  .content-title {
+    font-weight: bold;
+    color: #e83e8c;
+    margin-bottom: 5px;
+  }
+  .content-description {
+    color: #555;
+    font-size: 18px;
+  }
+  .selling-header{
+    border-radius: 20px;
+        background-color: #f8d7da;
+        padding: 40px 20px;
+        color: #2d3748;
+        margin-bottom: 40px;
+        font-size: 32px;
+    
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+  }
+  .profile-text {
+    flex: 1;
+  }
+  .profile-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .profile-title {
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .selling-header {
+    font-size: 28px;
+  }
+  .footer {
+    background-color: #f8d7da;
+    padding: 20px;
+    text-align: center;
+    color: #2d3748;
+    border-radius: 20px;
+  }
+  .footer-cta {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    text-align: center;
+              }
+
+  @media (max-width: 768px) {
+    body {
+      padding: 0 20px;
+    }
+    .header h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+
+    .self-intro-wrapper {
+      flex-direction: column-reverse;
+    }
+
+    .self-intro-img {
+      height: 200px;
+      width: unset;
+    }
+
+    .grid-layout {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero-content {
+      flex-direction: column;
+    }
+    .guide-box {
+      margin-top: 40px;
+      width: 80%;
+    }
+    .workshop-details {
+      flex-direction: column;
+    }
+  }
