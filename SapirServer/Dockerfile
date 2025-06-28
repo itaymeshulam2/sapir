@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 as build-env
 WORKDIR /src
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o /publish
+RUN dotnet restore "SapirServer/SapirServer.csproj"
+RUN dotnet publish "SapirServer/SapirServer.csproj" -c Release -o /publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 as runtime
 ENV ASPNETCORE_ENVIRONMENT=Development

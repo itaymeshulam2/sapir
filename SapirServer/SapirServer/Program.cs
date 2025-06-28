@@ -1,6 +1,5 @@
 using System.Text.Json.Serialization;
 using Microsoft.OpenApi.Models;
-using OneReportServer.Model;
 using SapirServer.Client.Implementation;
 using SapirServer.Client.Interface;
 using SapirServer.Helper;
