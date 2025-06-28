@@ -9,5 +9,7 @@ ENV ASPNETCORE_ENVIRONMENT=Development
 ENV ASPNETCORE_URLS=http://+:7004
 WORKDIR /publish
 COPY --from=build-env /publish .
+# 🔥 Copy the file/folder into the container
+COPY file /publish/file
 EXPOSE 7004
 ENTRYPOINT ["dotnet", "SapirServer.dll"]

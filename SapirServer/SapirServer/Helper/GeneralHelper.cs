@@ -15,7 +15,6 @@ public class GeneralHelper
 
     public static string GetPath()
     {
-        return Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName,
-            "file/חוברת סיכום שנה ותיכנון החופש הגדול.pdf");
+        return Path.Combine(Directory.GetCurrentDirectory(), "file", "חוברת סיכום שנה ותיכנון החופש הגדול.pdf");
     }
 }

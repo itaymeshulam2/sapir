@@ -81,6 +81,7 @@ namespace SapirServer.Client.Implementation
             mail.Subject = subject;
             mail.Body = body;
             string pdfFilePath = GeneralHelper.GetPath();
+            _logger.LogDebug("file path: " + pdfFilePath);
             Attachment pdfAttachment = new Attachment(pdfFilePath);
             mail.Attachments.Add(pdfAttachment);
 
