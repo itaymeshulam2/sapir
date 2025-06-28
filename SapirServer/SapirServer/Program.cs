@@ -23,7 +23,7 @@ var configuration = new ConfigurationBuilder()
 const string template =
     "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz}] [{Level:u3}] [{SourceContext}]: {Message:lj} {NewLine}{Exception}";
 var logger = new LoggerConfiguration()
-    .WriteTo.File(Path.Combine("logs", "reportone-api", "ReportOneServer_.txt"), outputTemplate: template,
+    .WriteTo.File(Path.Combine("logs", "sapir-api", "SapirServer_.txt"), outputTemplate: template,
         rollingInterval: RollingInterval.Day, retainedFileCountLimit: 15, fileSizeLimitBytes: 1073741824, shared: true)
     .WriteTo.Console(theme: Serilog.Sinks.SystemConsole.Themes.SystemConsoleTheme.Literate, outputTemplate: template);
 
