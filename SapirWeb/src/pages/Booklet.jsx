@@ -3,6 +3,8 @@ import "./Booklet.css";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
+
 
 function Booklet() {
   const [form, setForm] = useState({
@@ -16,6 +18,8 @@ function Booklet() {
   const [agree, setAgree] = useState(false);
   const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -77,18 +81,20 @@ function Booklet() {
       );
 
       if (response.data.success) {
-      
         setForm({ name: "", email: "", phone: "" });
         setAgree(false);
+        navigate("/thanks");
+
       } else {
         setServerError(true);
+        setShowModal(true);
       }
     } catch (err) {
       setServerError(true);
+      setShowModal(true);
       console.error("send email error:", err);
     }
     finally{
-      setShowModal(true);
       setLoading(false);
     }
   };
