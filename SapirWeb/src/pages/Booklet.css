@@ -29,6 +29,7 @@
     border-radius: 12px;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
   }
 
   input::placeholder {
@@ -135,7 +136,8 @@
     border-radius: 8px;
     min-width: 300px;
     max-width: 90%;
-    position: relative
+    position: relative;
+    text-align: center;
   }
 
   .loader-overlay{

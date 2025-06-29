@@ -175,7 +175,10 @@ function Booklet() {
         {/* <div className="modal-overlay"> */}
           <div className="modal-content">
             {serverError ?  <h2>אירע שגיאה אנא נסו בשנית</h2> : 
-             <h2>החוברת נשלחה למייל שלך 🎉</h2>}
+             <h2>
+             בוצע בהצלחה! <br />
+             החוברת נשלחה אלייך למייל ❤️
+           </h2>}
             <button onClick={() => setShowModal(false)}>סגור</button>
           </div>
         </div>   
