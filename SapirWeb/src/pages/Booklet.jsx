@@ -68,7 +68,7 @@ function Booklet() {
     try {
       setLoading(true);
       const response = await axios.post(
-        `${window.location.protocol}//${window.location.hostname}:7004/api/email/send-email`,
+        `${window.location.protocol}//${window.location.hostname}/api/email/send-email`,
         {
           name: form.name,
           email: form.email,
